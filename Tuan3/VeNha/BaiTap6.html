@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học web chuẩn</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+        }
+
+        /* Khung portfolio */
+        .portfolio {
+            width: 100%;
+            background-color: #f8f8f8;
+            padding: 26px 4px 8px;
+            text-align: center;
+        }
+
+        /* Tiêu đề */
+        .portfolio h2 {
+            font-size: 26px;
+            color: #222;
+            margin: 0;
+            padding-bottom: 13px;
+        }
+
+        /* Đường gạch dưới tiêu đề */
+        .portfolio h2::after {
+            content: "";
+            display: block;
+            width: 60px;
+            height: 2px;
+            background-color: #48aaa8;
+            margin: 13px auto 0;
+        }
+
+        /* Danh sách danh mục */
+        .list-tab {
+            list-style: none;
+            padding: 0;
+            margin: 24px 0 34px;
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+        }
+
+        /* Liên kết danh mục */
+        .list-tab li a {
+            text-decoration: none;
+            color: #555;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        /* Danh mục đang được chọn */
+        .list-tab li:first-child a {
+            color: #48aaa8;
+        }
+
+        /* Khu vực chứa hình ảnh */
+        .gallery {
+            list-style: none;
+            padding: 8px 4px;
+            margin: 0;
+            background-color: #fff;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px 23px;
+        }
+
+        /* Hình ảnh */
+        .gallery img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="portfolio">
+
+        <h2>MY PORTFOLIO</h2>
+
+        <ul class="list-tab">
+            <li><a href="./">All</a></li>
+            <li><a href="./">Web App</a></li>
+            <li><a href="./">UI/UX</a></li>
+            <li><a href="./">Graphics Design</a></li>
+            <li><a href="./">Mobile App</a></li>
+            <li><a href="./">Branding</a></li>
+            <li><a href="./">Marketing</a></li>
+        </ul>
+
+        <ul class="gallery">
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+            <li><a href="./"><img src="images/hocwebchuan.png" alt=""></a></li>
+        </ul>
+
+    </section>
+
+</body>
+</html>
