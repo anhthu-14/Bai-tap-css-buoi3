@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 09 - JavaScript DOM and Events</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f6fa;
+            color: #263445;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(25, 50, 80, 0.06);
+        }
+
+        h1 {
+            color: #142d4e;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            color: #657487;
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #24618b;
+            font-size: 19px;
+            margin: 25px 0 12px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        li a {
+            display: block;
+            padding: 12px 15px;
+            background: #edf5fb;
+            color: #176d9c;
+            text-decoration: none;
+            border-radius: 7px;
+            transition: 0.2s;
+        }
+
+        li a:hover {
+            background: #d8ebf8;
+            transform: translateX(4px);
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 25px;
+            color: #24618b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 22px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Lab 09 – JavaScript 2: DOM and Events</h1>
+
+        <p class="description">
+            Tổng hợp các bài thực hành về Document Object Model (DOM)
+            và xử lý sự kiện trong JavaScript. Qua bài Lab này, em thực hành
+            cách truy xuất, thay đổi nội dung HTML, tạo và xóa phần tử,
+            xử lý tương tác của người dùng và kiểm tra dữ liệu biểu mẫu.
+        </p>
+
+        <h2>Danh sách bài thực hành</h2>
+
+        <ul>
+            <li>
+                <a href="lab09-walkthrough01.html">
+                    Walkthrough 01 – Basic DOM Selection
+                </a>
+            </li>
+
+            <li>
+                <a href="lab09-walkthrough02.html">
+                    Walkthrough 02 – DOM Family Relations
+                </a>
+            </li>
+
+            <li>
+                <a href="lab09-walkthrough03.html">
+                    Walkthrough 03 – Modifying DOM
+                </a>
+            </li>
+
+            <li>
+                <a href="lab09-walkthrough04.html">
+                    Walkthrough 04 – Simple Event Handling
+                </a>
+            </li>
+
+            <li>
+                <a href="lab09-walkthrough05.html">
+                    Walkthrough 05 – Responding to Load Events
+                </a>
+            </li>
+
+            <li>
+                <a href="lab09-walkthrough06.html">
+                    Walkthrough 06 – Debugging Events
+                </a>
+            </li>
+
+            <li>
+                <a href="lab09-walkthrough07.html">
+                    Walkthrough 07 – Working with Forms
+                </a>
+            </li>
+
+            <li>
+                <a href="lab09-walkthrough08.html">
+                    Walkthrough 08 – Form Validation
+                </a>
+            </li>
+        </ul>
+
+        <a href="../index.html" class="back">
+            ← Quay lại trang chủ
+        </a>
+
+    </div>
+
+</body>
+</html>
