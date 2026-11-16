@@ -19,6 +19,7 @@ Mục tiêu của em là hiểu cách JavaScript hoạt động trong một tran
 
 Repository được tổ chức thành các thư mục riêng cho từng bài Lab để thuận tiện cho việc quản lý mã nguồn và truy cập các bài thực hành.
 
+```text
 JavaScript-Labs/
 │
 ├── index.html
@@ -78,6 +79,7 @@ JavaScript-Labs/
     ├── images/
     ├── js/
     └── css/
+```
 
 **Chức năng của các thành phần chính:**
 
