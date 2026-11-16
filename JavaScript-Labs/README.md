@@ -7,7 +7,7 @@
 - **Lớp học phần:** EE0002
 - **Môn học:** Phát triển ứng dụng TMĐT
 - **Giảng viên:** TS. Nguyễn Mạnh Tuấn
-- **GitHub:** [GitHub cá nhân](https://github.com/USERNAME)
+- **GitHub:** [GitHub cá nhân](https://github.com/anhthu-14)
 
 ## 2. Mục tiêu thực hiện
 
@@ -116,7 +116,7 @@ Các trang danh sách của từng Lab được tạo riêng nhằm giúp việc
 
 ## 6. GitHub Pages
 
-**Đường dẫn truy cập website:** [DÁN LINK GITHUB PAGES TẠI ĐÂY]
+**Đường dẫn truy cập website:** [https://anhthu-14.github.io/Bai-tap-css-buoi3/JavaScript-Labs/]
 
 Website được triển khai bằng GitHub Pages. Giảng viên có thể truy cập đường dẫn trên để xem trang portfolio cá nhân và sử dụng các liên kết được bố trí trên website để kiểm tra kết quả thực hiện Lab 08, Lab 09 và Lab 10.
 
